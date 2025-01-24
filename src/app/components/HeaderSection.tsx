@@ -14,7 +14,7 @@ export function HeaderSection() {
               fontWeight="bold"
               fontFamily="Be Vietnam"
             >
-              WEKOOKMIN
+              매치매치
             </Text>
           </Box>
         </Box>
@@ -61,7 +61,7 @@ export function HeaderSection() {
           {/* 굵은 글씨 소개 */}
           <Box
             fontSize={["28px", null, "40px"]}
-            width={["259px", null, "561px"]}
+            width={["310px", null, "561px"]}
             fontWeight="700"
             color="black"
             lineHeight={["36px", null, "52px"]}
@@ -69,11 +69,9 @@ export function HeaderSection() {
           >
             {/* 모바일 화면 */}
             <Text display={["block", "block", "none"]}>
-              생성형 AI기반의 정확한
+              여럿이서 하면 더 재밌잖아요
               <br />
-              위치 정보를 찾아주는
-              <br />
-              인공지능 기반의 MAP
+              스포츠를 공유하세요
             </Text>
 
             {/* 데스크탑 화면 */}
