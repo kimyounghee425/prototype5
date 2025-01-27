@@ -29,7 +29,7 @@ export function ReservationForm() {
       return;
     }
 
-    if (!phoneNumber.startsWith("010")) {
+    if (!phoneNumber.startsWith("010") || phoneNumber.length !== 13) {
       console.log(JSON.stringify({ phoneNumber }));
       window.alert("올바른 전화번호 형식이 아닙니다.");
       setPhoneNumber("");
